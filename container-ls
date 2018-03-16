@@ -1,0 +1,12 @@
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                   PORTS                NAMES
+fbc20edffe83        friendlyhello       "python app.py"          20 minutes ago      Up 4 minutes             0.0.0.0:80->80/tcp   web1
+79d0bf8dbe1e        alpine              "ash"                    38 minutes ago      Up 34 minutes                                 a1
+96ed8469d10e        redis               "docker-entrypoint.s…"   About an hour ago   Up About an hour         6379/tcp             redis
+63c1f6668b91        bd45f359d15a        "python app.py"          2 hours ago         Exited (0) 2 hours ago                        confident_morse
+b56c65d12674        972da32b7c4b        "python app.py"          2 hours ago         Exited (1) 2 hours ago                        infallible_jackson
+f03dc977398e        972da32b7c4b        "python app.py"          2 hours ago         Exited (1) 2 hours ago                        laughing_agnesi
+3928d8e36b34        972da32b7c4b        "python app.py"          2 hours ago         Exited (1) 2 hours ago                        vibrant_mahavira
+c4362fe139b8        8b79190b9467        "python app.py"          2 hours ago         Exited (0) 2 hours ago                        trusting_ritchie
+43c428cedde6        722819ef788c        "/bin/sh -c 'pip ins…"   2 hours ago         Exited (1) 2 hours ago                        vibrant_austin
+44cfc3323923        hello-world         "/hello"                 2 hours ago         Exited (0) 2 hours ago                        gallant_meitner
+c8a2c779fc89        hello-world         "/hello"                 2 hours ago         Exited (0) 2 hours ago                        mystifying_mclean

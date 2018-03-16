@@ -1,0 +1,51 @@
+[
+    {
+        "Name": "lab3-net",
+        "Id": "68ca408192fdf38c8ce44f258571eb16290bef519b66816ab61661049295a0e4",
+        "Created": "2018-03-16T16:33:49.066054326-04:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.30.0.0/16"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "79d0bf8dbe1e090e72ac9256b8dc170caf0c3709f7d93a4184419586b85f9153": {
+                "Name": "a1",
+                "EndpointID": "09807c9fe25ea8ced44a7fa3d6daa8655664ba7036f35cf098c42840c6983682",
+                "MacAddress": "02:42:ac:1e:00:03",
+                "IPv4Address": "172.30.0.3/16",
+                "IPv6Address": ""
+            },
+            "96ed8469d10ed7a33a5ca603403cab6b58ee59808b94f93f9abe8be1d5f7cf60": {
+                "Name": "redis",
+                "EndpointID": "aafbaae67306f2385484ac06c816272858b84ed257ad7f7bc8938ed76393622e",
+                "MacAddress": "02:42:ac:1e:00:02",
+                "IPv4Address": "172.30.0.2/16",
+                "IPv6Address": ""
+            },
+            "fbc20edffe832c267d4971991865a5e14912dc18ba98b4b76ef9568f754504bb": {
+                "Name": "web1",
+                "EndpointID": "c264f5155263adea66b04a1120a8fce7075fdc58843a1add544b15f995c7929d",
+                "MacAddress": "02:42:ac:1e:00:04",
+                "IPv4Address": "172.30.0.4/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {},
+        "Labels": {}
+    }
+]
