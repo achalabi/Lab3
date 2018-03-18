@@ -5,17 +5,17 @@
         "Path": "ash",
         "Args": [],
         "State": {
-            "Status": "running",
-            "Running": true,
+            "Status": "exited",
+            "Running": false,
             "Paused": false,
             "Restarting": false,
             "OOMKilled": false,
             "Dead": false,
-            "Pid": 3773,
-            "ExitCode": 0,
+            "Pid": 0,
+            "ExitCode": 137,
             "Error": "",
-            "StartedAt": "2018-03-16T21:48:17.525056897Z",
-            "FinishedAt": "2018-03-16T21:45:28.050106882Z"
+            "StartedAt": "2018-03-18T03:02:17.297707215Z",
+            "FinishedAt": "2018-03-18T03:13:57.112439816Z"
         },
         "Image": "sha256:3fd9065eaf02feaf94d68376da52541925650b81698c53c6824d92ff63f98353",
         "ResolvConfPath": "/var/lib/docker/containers/79d0bf8dbe1e090e72ac9256b8dc170caf0c3709f7d93a4184419586b85f9153/resolv.conf",
@@ -72,8 +72,8 @@
             ],
             "Isolation": "",
             "CpuShares": 0,
-            "Memory": 0,
-            "NanoCpus": 0,
+            "Memory": 2147483648,
+            "NanoCpus": 1000000000,
             "CgroupParent": "",
             "BlkioWeight": 0,
             "BlkioWeightDevice": [],
@@ -92,7 +92,7 @@
             "DiskQuota": 0,
             "KernelMemory": 0,
             "MemoryReservation": 0,
-            "MemorySwap": 0,
+            "MemorySwap": -1,
             "MemorySwappiness": null,
             "OomKillDisable": false,
             "PidsLimit": 0,
@@ -137,12 +137,12 @@
         },
         "NetworkSettings": {
             "Bridge": "",
-            "SandboxID": "4b74ed0a42f9d0d28ab3f7be6895b46c73e90077d47baef7bb3a829f86a242f5",
+            "SandboxID": "6d6a205957e78b3fa19cbce940d28b15e2b0dda7fb7511b2527c9663b30e906b",
             "HairpinMode": false,
             "LinkLocalIPv6Address": "",
             "LinkLocalIPv6PrefixLen": 0,
             "Ports": {},
-            "SandboxKey": "/var/run/docker/netns/4b74ed0a42f9",
+            "SandboxKey": "/var/run/docker/netns/6d6a205957e7",
             "SecondaryIPAddresses": null,
             "SecondaryIPv6Addresses": null,
             "EndpointID": "",
@@ -161,14 +161,14 @@
                         "79d0bf8dbe1e"
                     ],
                     "NetworkID": "68ca408192fdf38c8ce44f258571eb16290bef519b66816ab61661049295a0e4",
-                    "EndpointID": "09807c9fe25ea8ced44a7fa3d6daa8655664ba7036f35cf098c42840c6983682",
-                    "Gateway": "172.30.0.1",
-                    "IPAddress": "172.30.0.3",
-                    "IPPrefixLen": 16,
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
                     "IPv6Gateway": "",
                     "GlobalIPv6Address": "",
                     "GlobalIPv6PrefixLen": 0,
-                    "MacAddress": "02:42:ac:1e:00:03",
+                    "MacAddress": "",
                     "DriverOpts": null
                 }
             }
@@ -182,17 +182,17 @@
             "redis-server"
         ],
         "State": {
-            "Status": "running",
-            "Running": true,
+            "Status": "exited",
+            "Running": false,
             "Paused": false,
             "Restarting": false,
             "OOMKilled": false,
             "Dead": false,
-            "Pid": 32693,
+            "Pid": 0,
             "ExitCode": 0,
             "Error": "",
-            "StartedAt": "2018-03-16T21:02:51.715562863Z",
-            "FinishedAt": "0001-01-01T00:00:00Z"
+            "StartedAt": "2018-03-18T03:02:32.473063772Z",
+            "FinishedAt": "2018-03-18T03:14:03.539867964Z"
         },
         "Image": "sha256:4760dc956b2ddc9ac1c508936e39b63a22c6f0640ef58c1b10ff73f04e253ffe",
         "ResolvConfPath": "/var/lib/docker/containers/96ed8469d10ed7a33a5ca603403cab6b58ee59808b94f93f9abe8be1d5f7cf60/resolv.conf",
@@ -249,8 +249,8 @@
             ],
             "Isolation": "",
             "CpuShares": 0,
-            "Memory": 0,
-            "NanoCpus": 0,
+            "Memory": 2147483648,
+            "NanoCpus": 1000000000,
             "CgroupParent": "",
             "BlkioWeight": 0,
             "BlkioWeightDevice": [],
@@ -269,7 +269,7 @@
             "DiskQuota": 0,
             "KernelMemory": 0,
             "MemoryReservation": 0,
-            "MemorySwap": 0,
+            "MemorySwap": -1,
             "MemorySwappiness": null,
             "OomKillDisable": false,
             "PidsLimit": 0,
@@ -337,14 +337,12 @@
         },
         "NetworkSettings": {
             "Bridge": "",
-            "SandboxID": "bcc465c308e42166b8b3bcb61ad0b18e4741c3f4395180369f50245f35a7e9ec",
+            "SandboxID": "144c33de9fc94adcf79292573ece66245278bfd4c68d92fbed22f858cf897638",
             "HairpinMode": false,
             "LinkLocalIPv6Address": "",
             "LinkLocalIPv6PrefixLen": 0,
-            "Ports": {
-                "6379/tcp": null
-            },
-            "SandboxKey": "/var/run/docker/netns/bcc465c308e4",
+            "Ports": {},
+            "SandboxKey": "/var/run/docker/netns/144c33de9fc9",
             "SecondaryIPAddresses": null,
             "SecondaryIPv6Addresses": null,
             "EndpointID": "",
@@ -363,14 +361,14 @@
                         "96ed8469d10e"
                     ],
                     "NetworkID": "68ca408192fdf38c8ce44f258571eb16290bef519b66816ab61661049295a0e4",
-                    "EndpointID": "aafbaae67306f2385484ac06c816272858b84ed257ad7f7bc8938ed76393622e",
-                    "Gateway": "172.30.0.1",
-                    "IPAddress": "172.30.0.2",
-                    "IPPrefixLen": 16,
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
                     "IPv6Gateway": "",
                     "GlobalIPv6Address": "",
                     "GlobalIPv6PrefixLen": 0,
-                    "MacAddress": "02:42:ac:1e:00:02",
+                    "MacAddress": "",
                     "DriverOpts": null
                 }
             }
@@ -384,17 +382,17 @@
             "app.py"
         ],
         "State": {
-            "Status": "running",
-            "Running": true,
+            "Status": "exited",
+            "Running": false,
             "Paused": false,
             "Restarting": false,
             "OOMKilled": false,
             "Dead": false,
-            "Pid": 5753,
-            "ExitCode": 0,
+            "Pid": 0,
+            "ExitCode": 137,
             "Error": "",
-            "StartedAt": "2018-03-16T22:18:12.268998491Z",
-            "FinishedAt": "2018-03-16T22:14:01.405151573Z"
+            "StartedAt": "2018-03-18T03:02:22.709452213Z",
+            "FinishedAt": "2018-03-18T03:13:40.592616903Z"
         },
         "Image": "sha256:d1c762f8f7c1797b7b0465bc01cfcb43bc30639277a72f394ae745f853e674d2",
         "ResolvConfPath": "/var/lib/docker/containers/fbc20edffe832c267d4971991865a5e14912dc18ba98b4b76ef9568f754504bb/resolv.conf",
@@ -458,8 +456,8 @@
             ],
             "Isolation": "",
             "CpuShares": 0,
-            "Memory": 0,
-            "NanoCpus": 0,
+            "Memory": 2147483648,
+            "NanoCpus": 1000000000,
             "CgroupParent": "",
             "BlkioWeight": 0,
             "BlkioWeightDevice": [],
@@ -478,7 +476,7 @@
             "DiskQuota": 0,
             "KernelMemory": 0,
             "MemoryReservation": 0,
-            "MemorySwap": 0,
+            "MemorySwap": -1,
             "MemorySwappiness": null,
             "OomKillDisable": false,
             "PidsLimit": 0,
@@ -533,19 +531,12 @@
         },
         "NetworkSettings": {
             "Bridge": "",
-            "SandboxID": "04177cf8a0cd0574107866a447b654904bfa35b33a13732fee95dfa42e589fb7",
+            "SandboxID": "b95d9f988e6d3e791e74ad21e2f98d8a7b4465a9ff57156c71aa44bd8d0f6c84",
             "HairpinMode": false,
             "LinkLocalIPv6Address": "",
             "LinkLocalIPv6PrefixLen": 0,
-            "Ports": {
-                "80/tcp": [
-                    {
-                        "HostIp": "0.0.0.0",
-                        "HostPort": "80"
-                    }
-                ]
-            },
-            "SandboxKey": "/var/run/docker/netns/04177cf8a0cd",
+            "Ports": {},
+            "SandboxKey": "/var/run/docker/netns/b95d9f988e6d",
             "SecondaryIPAddresses": null,
             "SecondaryIPv6Addresses": null,
             "EndpointID": "",
@@ -564,14 +555,14 @@
                         "fbc20edffe83"
                     ],
                     "NetworkID": "68ca408192fdf38c8ce44f258571eb16290bef519b66816ab61661049295a0e4",
-                    "EndpointID": "c264f5155263adea66b04a1120a8fce7075fdc58843a1add544b15f995c7929d",
-                    "Gateway": "172.30.0.1",
-                    "IPAddress": "172.30.0.4",
-                    "IPPrefixLen": 16,
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
                     "IPv6Gateway": "",
                     "GlobalIPv6Address": "",
                     "GlobalIPv6PrefixLen": 0,
-                    "MacAddress": "02:42:ac:1e:00:04",
+                    "MacAddress": "",
                     "DriverOpts": null
                 }
             }

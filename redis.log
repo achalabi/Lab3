@@ -12,3 +12,28 @@
  18:C 16 Mar 22:02:52.050 * DB saved on disk
  18:C 16 Mar 22:02:52.051 * RDB: 0 MB of memory used by copy-on-write
  1:M 16 Mar 22:02:52.109 * Background saving terminated with success
+ 1:M 16 Mar 23:02:53.004 * 1 changes in 3600 seconds. Saving...
+ 1:M 16 Mar 23:02:53.004 * Background saving started by pid 19
+ 19:C 16 Mar 23:02:53.048 * DB saved on disk
+ 19:C 16 Mar 23:02:53.048 * RDB: 0 MB of memory used by copy-on-write
+ 1:M 16 Mar 23:02:53.105 * Background saving terminated with success
+ 1:signal-handler (1521341770) Received SIGTERM scheduling shutdown...
+ 1:M 18 Mar 02:56:10.309 # User requested shutdown...
+ 1:M 18 Mar 02:56:10.309 * Saving the final RDB snapshot before exiting.
+ 1:M 18 Mar 02:56:10.343 * DB saved on disk
+ 1:M 18 Mar 02:56:10.344 # Redis is now ready to exit, bye bye...
+ 1:C 18 Mar 03:02:32.468 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+ 1:C 18 Mar 03:02:32.468 # Redis version=4.0.8, bits=64, commit=00000000, modified=0, pid=1, just started
+ 1:C 18 Mar 03:02:32.468 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+ 1:M 18 Mar 03:02:32.469 * Running mode=standalone, port=6379.
+ 1:M 18 Mar 03:02:32.470 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+ 1:M 18 Mar 03:02:32.470 # Server initialized
+ 1:M 18 Mar 03:02:32.470 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+ 1:M 18 Mar 03:02:32.470 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+ 1:M 18 Mar 03:02:32.470 * DB loaded from disk: 0.000 seconds
+ 1:M 18 Mar 03:02:32.470 * Ready to accept connections
+ 1:signal-handler (1521342843) Received SIGTERM scheduling shutdown...
+ 1:M 18 Mar 03:14:03.436 # User requested shutdown...
+ 1:M 18 Mar 03:14:03.436 * Saving the final RDB snapshot before exiting.
+ 1:M 18 Mar 03:14:03.482 * DB saved on disk
+ 1:M 18 Mar 03:14:03.482 # Redis is now ready to exit, bye bye...

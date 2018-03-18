@@ -1,7 +1,7 @@
 Containers: 11
- Running: 3
+ Running: 0
  Paused: 0
- Stopped: 8
+ Stopped: 11
 Images: 32
 Server Version: 17.12.1-ce
 Storage Driver: overlay2
